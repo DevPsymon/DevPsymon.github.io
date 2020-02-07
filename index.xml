@@ -8,10 +8,19 @@
     <language>kr-ko</language>
     <managingEditor>seongyeol.dev@gmail.com (PSYMON)</managingEditor>
     <webMaster>seongyeol.dev@gmail.com (PSYMON)</webMaster>
-    <lastBuildDate>Fri, 07 Feb 2020 10:26:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2020 16:00:46 +0900</lastBuildDate>
     
 	<atom:link href="https://devpsymon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Essay</title>
+      <link>https://devpsymon.github.io/post/essay/</link>
+      <pubDate>Fri, 07 Feb 2020 16:00:46 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/post/essay/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Commet</title>
@@ -34,6 +43,15 @@
  목록 하나 목록 둘   이것도 똑같아요   하지만   리스트  안에  더 안에 넣을 수도   있습니다.   그렇죠?     제목1 제목2              굵게 쓰거나 두껍게 쓰거나
 취소 문자
 namespace::name(name &amp;amp; ths) { auto name = ths; return name; } 기울게 쓰는건 이렇게 씁니다.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://devpsymon.github.io/about/</link>
+      <pubDate>Mon, 04 Feb 2019 10:25:27 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/about/</guid>
+      <description>Education   Gyeonggi Science High School (GSHS), Suwon, Gyeonggi, South Korea (Mar 2012 - Feb 2015)  Seoul National University (SNU), Seoul, South Korea (Mar 2015 – Present) B.S. in Computer Science and Engineering    Interest Fields  Problem Solving  Algorithm, Data structure   Human Computer Interaction  Gamification, Crowdsourcing, Human Computing, Social Computing   Game design  Projects NDB Game management tycoon game. Users can control the game’s popularity by summoning appropriate number of monsters.</description>
     </item>
     
     <item>

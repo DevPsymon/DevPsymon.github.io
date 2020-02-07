@@ -8,10 +8,19 @@
     <language>kr-ko</language>
     <managingEditor>seongyeol.dev@gmail.com (PSYMON)</managingEditor>
     <webMaster>seongyeol.dev@gmail.com (PSYMON)</webMaster>
-    <lastBuildDate>Fri, 07 Feb 2020 10:26:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2020 16:00:46 +0900</lastBuildDate>
     
 	<atom:link href="https://devpsymon.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Essay</title>
+      <link>https://devpsymon.github.io/post/essay/</link>
+      <pubDate>Fri, 07 Feb 2020 16:00:46 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/post/essay/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Commet</title>
