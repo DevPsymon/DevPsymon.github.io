@@ -27,5 +27,14 @@
 namespace::name(name &amp;amp; ths) { auto name = ths; return name; } 기울게 쓰는건 이렇게 씁니다.</description>
     </item>
     
+    <item>
+      <title>Post title</title>
+      <link>https://devpsymon.github.io/post/post_sample/</link>
+      <pubDate>Wed, 19 Oct 2016 23:35:00 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/post/post_sample/</guid>
+      <description>Write your post.</description>
+    </item>
+    
   </channel>
 </rss>
