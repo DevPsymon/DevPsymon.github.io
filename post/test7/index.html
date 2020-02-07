@@ -108,11 +108,114 @@
     </a>
   </div>
   <div class="post-toc">
-    <span class="title">TOC</span>
-    <nav id="TableOfContents"></nav>
+    <span class="title">Table of contents</span>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1제목">1제목</a>
+      <ul>
+        <li><a href="#소1제목">소1제목</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#2단계-제목">2단계 제목</a></li>
+    <li><a href="#소제목">소제목</a>
+      <ul>
+        <li><a href="#소소-제목입니다">소소 제목입니다.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
   <section class="post-content">
-    <p><code>$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $</code></p>
+    <h1 id="제목">제목</h1>
+<p>본문 좀 쓰고</p>
+<h2 id="1제목">1제목</h2>
+<h3 id="소1제목">소1제목</h3>
+<h1 id="1단계-제목">1단계 제목</h1>
+<h2 id="2단계-제목">2단계 제목</h2>
+<p>문단을 나눠볼까요?</p>
+<p>이렇게 합니다.</p>
+<ul>
+<li>목록 하나</li>
+<li>목록 둘</li>
+</ul>
+<ul>
+<li>이것도</li>
+<li>똑같아요</li>
+</ul>
+<ul>
+<li>하지만</li>
+</ul>
+<ul>
+<li>리스트
+<ul>
+<li>안에
+<ol>
+<li>더 안에</li>
+<li>넣을 수도</li>
+</ol>
+</li>
+<li>있습니다.</li>
+</ul>
+</li>
+<li>그렇죠?</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">제목1</th>
+<th align="right">제목2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>굵게</strong> 쓰거나 <strong>두껍게</strong> 쓰거나</p>
+<p><del>취소 문자</del></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#66d9ef">namespace</span><span style="color:#f92672">:</span><span style="color:#f92672">:</span>name(name <span style="color:#f92672">&amp;</span> ths)
+{
+    <span style="color:#66d9ef">auto</span> name <span style="color:#f92672">=</span> ths;
+    <span style="color:#66d9ef">return</span> name;
+}
+</code></pre></div><p><em>기울게</em> 쓰는건 <em>이렇게</em> 씁니다.</p>
+<p><code>코드를 써볼까요</code></p>
+<p><code>import antigravity</code></p>
+<p>#!/usr/bin/env clojure
+(println &ldquo;Hello, World!&quot;)</p>
+<p><a href="https://naver.com">링크</a></p>
+<h2 id="소제목">소제목</h2>
+<p>다시 본문 써 주고</p>
+<h3 id="소소-제목입니다">소소 제목입니다.</h3>
+<ol>
+<li>목록</li>
+<li>다시</li>
+<li>쓰고</li>
+</ol>
+<blockquote>
+<p>블록문</p>
+<blockquote>
+<p>브블록</p>
+<blockquote>
+<p>브브브블</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>|| 이건 뭐였지</p>
+<hr>
+<p>가로줄</p>
+<hr>
+<p>링크[www.naver.com]</p>
+<p><code>$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $</code></p>
 
 <code class="gist" data-gist-id="254a6a942f69eb34c4ad4e7d6b17588f" data-gist-line="2-3"></code>
 
@@ -126,36 +229,9 @@
       </div>
     </div>
   </div>  
-  <div id="utterances"></div>
-<script src="https://utteranc.es/client.js"
-        repo="DevPsymon/blog-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
   
   <div class="post-comment">    
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "XXXX" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>    
+        
   </div>
   
   <div class="recommend-articles">
@@ -163,9 +239,24 @@
     <ul>
       
       
+      <li>
+        <a href="https://devpsymon.github.io/post/commet/" rel="next">
+          <span>Commet</span>
+        </a>
+      </li>
+      
     </ul>
   </div>
 </div>
+
+<div id="utterances"></div>
+<script src="https://utteranc.es/client.js"
+        repo="DevPsymon/blog-comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 
 <div class="go-top">
   <a href="#" class="go-top-button">
@@ -190,5 +281,6 @@
     </div>
   </body>
 </html>
+
 
 

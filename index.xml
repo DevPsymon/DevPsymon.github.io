@@ -8,10 +8,19 @@
     <language>kr-ko</language>
     <managingEditor>seongyeol.dev@gmail.com (PSYMON)</managingEditor>
     <webMaster>seongyeol.dev@gmail.com (PSYMON)</webMaster>
-    <lastBuildDate>Wed, 05 Feb 2020 15:35:19 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2020 10:26:34 +0900</lastBuildDate>
     
 	<atom:link href="https://devpsymon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Commet</title>
+      <link>https://devpsymon.github.io/post/commet/</link>
+      <pubDate>Fri, 07 Feb 2020 10:26:34 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/post/commet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Test7</title>
@@ -19,8 +28,12 @@
       <pubDate>Wed, 05 Feb 2020 15:35:19 +0900</pubDate>
       <author>seongyeol.dev@gmail.com (PSYMON)</author>
       <guid>https://devpsymon.github.io/post/test7/</guid>
-      <description>$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $
- </description>
+      <description>제목 본문 좀 쓰고
+1제목 소1제목 1단계 제목 2단계 제목 문단을 나눠볼까요?
+이렇게 합니다.
+ 목록 하나 목록 둘   이것도 똑같아요   하지만   리스트  안에  더 안에 넣을 수도   있습니다.   그렇죠?     제목1 제목2              굵게 쓰거나 두껍게 쓰거나
+취소 문자
+namespace::name(name &amp;amp; ths) { auto name = ths; return name; } 기울게 쓰는건 이렇게 씁니다.</description>
     </item>
     
   </channel>

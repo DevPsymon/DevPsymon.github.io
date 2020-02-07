@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subcategories on PSYMON</title>
+    <link>https://devpsymon.github.io/subcategories/</link>
+    <description>Recent content in Subcategories on PSYMON</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr-ko</language>
+    <managingEditor>seongyeol.dev@gmail.com (PSYMON)</managingEditor>
+    <webMaster>seongyeol.dev@gmail.com (PSYMON)</webMaster>
+    
+	<atom:link href="https://devpsymon.github.io/subcategories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
