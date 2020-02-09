@@ -3,113 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://devpsymon.github.io/subcategories/book/</loc>
-    <lastmod>2020-02-07T16:00:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/categories/</loc>
-    <lastmod>2020-02-07T16:00:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/post/essay/</loc>
-    <lastmod>2020-02-07T16:00:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/categories/essay/</loc>
-    <lastmod>2020-02-07T16:00:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/post/</loc>
-    <lastmod>2020-02-07T16:00:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/</loc>
-    <lastmod>2020-02-07T16:00:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/subcategories/</loc>
-    <lastmod>2020-02-07T16:00:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/subcategories/c&#43;&#43;/</loc>
-    <lastmod>2020-02-07T10:26:34+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/post/commet/</loc>
-    <lastmod>2020-02-07T10:26:34+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/categories/programming/</loc>
-    <lastmod>2020-02-07T10:26:34+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/subcategories/python/</loc>
-    <lastmod>2020-02-05T15:35:19+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/tags/</loc>
-    <lastmod>2020-02-05T15:35:19+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/tags/test/</loc>
-    <lastmod>2020-02-05T15:35:19+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/post/test7/</loc>
-    <lastmod>2020-02-05T15:35:19+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://devpsymon.github.io/about/</loc>
     <lastmod>2019-02-04T10:25:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devpsymon.github.io/tags/hugo/</loc>
-    <lastmod>2016-10-19T23:35:00+09:00</lastmod>
+    <loc>https://devpsymon.github.io/</loc>
+    <lastmod>2019-02-04T10:25:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://devpsymon.github.io/tags/lubang/</loc>
-    <lastmod>2016-10-19T23:35:00+09:00</lastmod>
+    <loc>https://devpsymon.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://devpsymon.github.io/subcategories/opencv/</loc>
-    <lastmod>2016-10-19T23:35:00+09:00</lastmod>
+    <loc>https://devpsymon.github.io/subcategories/</loc>
   </url>
   
   <url>
-    <loc>https://devpsymon.github.io/post/post_sample/</loc>
-    <lastmod>2016-10-19T23:35:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/tags/project/</loc>
-    <lastmod>2016-10-19T23:35:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/tags/tag/</loc>
-    <lastmod>2016-10-19T23:35:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://devpsymon.github.io/tags/theme/</loc>
-    <lastmod>2016-10-19T23:35:00+09:00</lastmod>
+    <loc>https://devpsymon.github.io/tags/</loc>
   </url>
   
 </urlset>

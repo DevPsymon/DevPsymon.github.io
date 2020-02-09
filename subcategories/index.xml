@@ -8,46 +8,9 @@
     <language>kr-ko</language>
     <managingEditor>seongyeol.dev@gmail.com (PSYMON)</managingEditor>
     <webMaster>seongyeol.dev@gmail.com (PSYMON)</webMaster>
-    <lastBuildDate>Fri, 07 Feb 2020 16:00:46 +0900</lastBuildDate>
     
 	<atom:link href="https://devpsymon.github.io/subcategories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>book</title>
-      <link>https://devpsymon.github.io/subcategories/book/</link>
-      <pubDate>Fri, 07 Feb 2020 16:00:46 +0900</pubDate>
-      <author>seongyeol.dev@gmail.com (PSYMON)</author>
-      <guid>https://devpsymon.github.io/subcategories/book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>https://devpsymon.github.io/subcategories/c&#43;&#43;/</link>
-      <pubDate>Fri, 07 Feb 2020 10:26:34 +0900</pubDate>
-      <author>seongyeol.dev@gmail.com (PSYMON)</author>
-      <guid>https://devpsymon.github.io/subcategories/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://devpsymon.github.io/subcategories/python/</link>
-      <pubDate>Wed, 05 Feb 2020 15:35:19 +0900</pubDate>
-      <author>seongyeol.dev@gmail.com (PSYMON)</author>
-      <guid>https://devpsymon.github.io/subcategories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenCV</title>
-      <link>https://devpsymon.github.io/subcategories/opencv/</link>
-      <pubDate>Wed, 19 Oct 2016 23:35:00 +0900</pubDate>
-      <author>seongyeol.dev@gmail.com (PSYMON)</author>
-      <guid>https://devpsymon.github.io/subcategories/opencv/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
