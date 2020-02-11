@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>신학전공 개발자의 개발입문기  | PSYMON</title>
+  <meta name="description" content=" '신학전공 개발자의 개발입문기'read this article.">
+  <meta property="og:title" content="신학전공 개발자의 개발입문기">
+  
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2020-02-10">
+  
+  <meta property="og:description" content=" '신학전공 개발자의 개발입문기'read this article.">
+  <meta property="og:url" content="https://devpsymon.github.io/post/%EC%8B%A0%ED%95%99%EC%A0%84%EA%B3%B5-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EA%B0%9C%EB%B0%9C%EC%9E%85%EB%AC%B8%EA%B8%B0/">
+  <meta property="og:site_name" content="PSYMON">
+  
+  <meta property="og:image" content="https://devpsymon.github.io/images/blog_image/bg-index.jpg">
+  
+  
+  <meta property="og:tags" content="비전공">
+  
+  <meta property="og:tags" content="회고">
+  
+  <meta property="og:tags" content="주니어 개발자">
+  
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="https://devpsymon.github.io/post/%EC%8B%A0%ED%95%99%EC%A0%84%EA%B3%B5-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EA%B0%9C%EB%B0%9C%EC%9E%85%EB%AC%B8%EA%B8%B0/">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/agate.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157261363-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-157261363-1');
+  </script>
+  
+  
+  <script type="text/javascript">
+  function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if (e.className === 'menu')
+      e.className = 'menu hidden';
+    else
+      e.className = 'menu';
+  }
+  </script>
+</head>
+<body>
+  <div class="navbar">    
+    <div class="logo">
+      <a href="/">
+        <img src="/images/logo.png" height="34px" />
+      </a>
+    </div>
+    <div class="burger">
+      <button onclick="toggle_visibility('menu')">
+        <i class="fa fa-bars" aria-hidden="true"></i> Menu
+      </button>
+    </div>
+    <div id="menu" class="menu hidden">
+      <ul>
+        <li><a href="/about">#About Me</a></li> 
+        <li><a href="/categories">#Categories</a></li>
+        <li><a href="/tags">#Tags</a></li>
+         
+      </ul>
+      <input class="search" id="search-input" type="search" placeholder="Keyword" value="">
+    </div>
+  </div>
+  <div class="container">    
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
+    
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script> 
+
+
+<div class="post">
+  <div class="post-title">
+    <a href="https://devpsymon.github.io/post/%EC%8B%A0%ED%95%99%EC%A0%84%EA%B3%B5-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EA%B0%9C%EB%B0%9C%EC%9E%85%EB%AC%B8%EA%B8%B0/">
+      <img src="/images/post-title-icon.png" />
+      <div class="post-meta">
+        <time>Monday, Feb 10, 2020 16:36</time>
+        <h1>신학전공 개발자의 개발입문기</h1>
+      </div>
+    </a>
+  </div>
+  <div class="post-toc">
+    <span class="title">Table of contents</span>
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#1-신학교와-편집기자">1. 신학교와 편집기자</a>
+<ul>
+<li><a href="#졸업과-퇴사">_졸업과 퇴사</a></li>
+</ul></li>
+<li><a href="#인투-디-언놈">인투 디 언놈</a>
+<ul>
+<li><a href="#국비지원학원">국비지원학원</a></li>
+<li><a href="#행복-끝-취업-시작">행복 끝 취업 시작</a></li>
+</ul></li>
+<li><a href="#돈받는-개발자-생활">돈받는 개발자 생활</a>
+<ul>
+<li><a href="#밥-값을-하는걸까">밥 값을 하는걸까?</a></li>
+<li><a href="#일과-자기-개발">일과 자기 개발</a></li>
+</ul></li>
+<li><a href="#블로그를-시작하며">블로그를 시작하며</a></li>
+</ul>
+</nav>
+  </div>
+  <section class="post-content">
+    
+
+<p>이미 제목에서 밝혔지만 나는 흔히 말하는 비전공 출신 개발자다. 물론 요즘은 워낙 비전공 개발자가 많다 보니 특별한 이력은 아니지만, 굳이 학문적 유사성을 따진다면 신학과 컴퓨터공학은 양끝단에 있지 않나 싶다. <del><code>뇌피셜</code></del><br />
+그러나 일반적 기대와 달리 이 글의 목적은 요새 유행처럼 번지는 &ldquo;당신도 이렇게 하면 개발자가 될 수 있다!&ldquo;라거나 &ldquo;고난과 역경을 극복한 비전공 개발자의 성공기&rdquo;같은 것은 아니다. 굳이 따지자면 담백하게 소개하는 짧은 요약기 정도가 적당하다.
+<img src="/images/blog_image/olaf1.jpg#center70" alt="" />
+<img src="/images/blog_image/olaf2.jpg#center70" alt="" /><br />
+<code>짧은 요약의 정석</code></p>
+
+<h1 id="1-신학교와-편집기자">1. 신학교와 편집기자</h1>
+
+<p>나는 2011년부터 2017년까지 신학교에서 신학을 전공했다. 그와중에 군대도 다녀오고 결혼까지 헀으니 참 빈틈없이 살았다는 생각이 든다. 심지어 하루도 낮과 밤으로 쪼개 낮에는 직장생활을 하고 밤에는 대학교에서 수업을 들었다. 그때 선택한 직업이 편집기자였는데 학술논문집을 주로 출판하는 작은 출판사였다. 비록 월급은 적었지만 야간 수업을 참석하는 것에 많은 배려를 해주셨고, 또 하루종일 논문을 읽고 교정하는 일도 꽤나 적성에 맞았기에 약 2년 반을 근무했다.<br />
+그러나 인생이란 이제 좀 길을 찾았다 싶으면 전혀 새로운 길에 우리를 던져놓는 얄미운 놈이다. 나 역시 17년도에 이 같은 시기를 보냈는데 이에 관한 이야기를 쓰면 앞서 말한 <code>담백한</code>이야기에서 한참 벗어나기에 지금은 넘어가려한다. <code>언젠가 기회가 되면 맵고 짠 이야기 특집으로..</code></p>
+
+<h2 id="졸업과-퇴사">_졸업과 퇴사</h2>
+
+<p>졸업과 동시에 출판사에 사직서를 제출했다. 사직서를 제출할 때까지만 해도 나름의 계획이 있었다. 그러나 그 계획들은 너무 낙관적이었음을 퇴사 3개월 즈음에 깨달았다.
+<img src="/images/blog_image/mike.jpg#center70" alt="" /></p>
+
+<h1 id="인투-디-언놈">인투 디 언놈</h1>
+
+<h2 id="국비지원학원">국비지원학원</h2>
+
+<h2 id="행복-끝-취업-시작">행복 끝 취업 시작</h2>
+
+<h1 id="돈받는-개발자-생활">돈받는 개발자 생활</h1>
+
+<h2 id="밥-값을-하는걸까">밥 값을 하는걸까?</h2>
+
+<h2 id="일과-자기-개발">일과 자기 개발</h2>
+
+<h1 id="블로그를-시작하며">블로그를 시작하며</h1>
+
+<p>책 들고 다니기</p>
+
+  </section>
+  <div class="post-meta-code">
+    <div class="desc">
+      
+      <div class="desc">
+        <span class="fixed-desc"> 항목</span>
+        
+        
+        <a href="https://devpsymon.github.io/categories/essay">_essay</a>
+        
+      </div>
+      
+      
+      <div class="desc">
+        <span class="fixed-desc"> 세부 항목</span>
+        
+        
+        <a href="https://devpsymon.github.io/subcategories/retrospect">_retrospect</a>
+        
+      </div>
+      
+      <div class="desc">
+        <span class="fixed-desc"> 테그</span>
+        
+        
+        <a href="https://devpsymon.github.io/tags/%EB%B9%84%EC%A0%84%EA%B3%B5">#비전공</a>
+        
+        <a href="https://devpsymon.github.io/tags/%ED%9A%8C%EA%B3%A0">#회고</a>
+        
+        <a href="https://devpsymon.github.io/tags/%EC%A3%BC%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90">#주니어 개발자</a>
+        
+        
+      </div>
+    </div>
+  </div>  
+  
+  <div class="post-comment">    
+        
+  </div>
+  
+  <div class="recommend-articles">
+    Recommend these articles
+    <ul>
+      
+      
+      <li>
+        <a href="https://devpsymon.github.io/about/" rel="next">
+          <span>About Me</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div id="utterances"></div>
+<script src="https://utteranc.es/client.js"
+        repo="DevPsymon/blog-comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+
+<div class="go-top">
+  <a href="#" class="go-top-button">
+    <i class="fa fa-angle-double-up"></i>
+    <span>Top</span>
+  </a>
+</div>
+<html>
+  <head>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="blank"></div>
+    </div>
+    <div class="footer">
+      <div class="share">    
+        <a href="https://github.com/DevPsymon" title="Github" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="mailto:seongyeol.dev@gmail.com" title="Email" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+      COPYRIGHT (C) <a href="https://blog.lulab.net">DONGGEUN,BANG (LUBANG). ALL RIGHTS RESERVED.
+    </div>
+  </body>
+</html>
+
+
+
