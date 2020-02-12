@@ -123,6 +123,13 @@ img[src$='#center50'] {
   width: 50%;
 }
 
+img[src$='#center65'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
 img[src$='#center75'] {
   display: block;
   margin-left: auto;
