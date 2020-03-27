@@ -8,9 +8,37 @@
     <language>kr-ko</language>
     <managingEditor>seongyeol.dev@gmail.com (PSYMON)</managingEditor>
     <webMaster>seongyeol.dev@gmail.com (PSYMON)</webMaster>
+    <lastBuildDate>Tue, 10 Mar 2020 15:55:12 +0900</lastBuildDate>
     
 	<atom:link href="https://devpsymon.github.io/subcategories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://devpsymon.github.io/subcategories/c&#43;&#43;/</link>
+      <pubDate>Tue, 10 Mar 2020 15:55:12 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/subcategories/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://devpsymon.github.io/subcategories/image-processing/</link>
+      <pubDate>Tue, 10 Mar 2020 15:55:12 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/subcategories/image-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opencv</title>
+      <link>https://devpsymon.github.io/subcategories/opencv/</link>
+      <pubDate>Tue, 10 Mar 2020 15:55:12 +0900</pubDate>
+      <author>seongyeol.dev@gmail.com (PSYMON)</author>
+      <guid>https://devpsymon.github.io/subcategories/opencv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>회고</title>

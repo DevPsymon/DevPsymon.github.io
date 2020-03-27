@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on PSYMON</title>
-    <link>https://devpsymon.github.io/categories/programming/</link>
-    <description>Recent content in Programming on PSYMON</description>
+    <title>C&#43;&#43; on PSYMON</title>
+    <link>https://devpsymon.github.io/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on PSYMON</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr-ko</language>
     <managingEditor>seongyeol.dev@gmail.com (PSYMON)</managingEditor>
     <webMaster>seongyeol.dev@gmail.com (PSYMON)</webMaster>
     <lastBuildDate>Tue, 10 Mar 2020 15:55:12 +0900</lastBuildDate>
     
-	<atom:link href="https://devpsymon.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://devpsymon.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
